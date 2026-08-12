@@ -7,18 +7,107 @@
 </head>
 
 <body>
-<header>
-    <h1>CarRent</h1>
-    <p>Hayalinizdeki aracı kolayca kiralayın.</p>
-</header>
+    
+    <header>
+ <h1>CarRental</h1>
 
-<main>
-    <h2>Araç Kiralama</h2>
-    <p>Size uygun aracı bulmak için arama yapın.</p>
-</main>
+        <nav>
+            <a href="#">Ana Sayfa</a>
+            <a href="#">Araçlar</a>
+            <a href="#">Hakkımızda</a>
+            <a href="#">İletişim</a>
+        </nav>
+    </header>
 
-<footer>
-    <p>© 2026 CarRent</p>
-</footer>
+
+    <main>
+
+        <section>
+            <h2>Hayalindeki aracı kirala</h2>
+
+            <p>
+                Güvenli, hızlı ve kolay araç kiralama.
+            </p>
+
+            <button>Araçları Gör</button>
+        </section>
+
+
+        <section>
+            <h2>Araç Kirala</h2>
+
+            <form>
+
+                <label for="location">Alış Yeri</label>
+                <input type="text" id="location" placeholder="Şehir veya konum">
+
+
+                <label for="pickup-date">Alış Tarihi</label>
+                <input type="date" id="pickup-date">
+
+
+                <label for="return-date">İade Tarihi</label>
+                <input type="date" id="return-date">
+
+
+                <button type="submit">Ara</button>
+
+            </form>
+        </section>
+
+
+        <section>
+            <h2>Popüler Araçlar</h2>
+
+            <article>
+                <img src="images/bmw.jpg" alt="BMW 3 Serisi">
+                <h3>BMW 3 Serisi</h3>
+                <p>Günlük 1.500 TL</p>
+                <button>İncele</button>
+            </article>
+
+            <article>
+                <img src="images/mercedes.avif" alt="Mercedes C-Class">
+                <h3>Mercedes C-Class</h3>
+                <p>Günlük 1.800 TL</p>
+                <button>İncele</button>
+            </article>
+
+            <article>
+                <img src="images/renault.avif" alt="Renault Clio">
+                <h3>Renault Clio</h3>
+                <p>Günlük 900 TL</p>
+                <button>İncele</button>
+            </article>
+
+        </section>
+
+
+        <section>
+            <h2>Neden CarRental?</h2>
+
+            <article>
+                <h3>Güvenli</h3>
+                <p>Güvenilir araçlar ve güvenli rezervasyon.</p>
+            </article>
+
+            <article>
+                <h3>Hızlı</h3>
+                <p>Kolay ve hızlı araç kiralama.</p>
+            </article>
+
+            <article>
+                <h3>Uygun Fiyat</h3>
+                <p>Her bütçeye uygun araç seçenekleri.</p>
+            </article>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 CarRental</p>
+    </footer>
+
 </body>
 </html>
