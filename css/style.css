@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+h1 {
+     color: #1a3d7c;
+}
+.car-card {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 15px;
+    width: 300px;
+}
+img {
+    width: 100%;
+}
+.popular-cars {
+    display: flex;
+     gap: 20px;
+     justify-content: center;
+}
+.why-us {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+button {
+    background-color: #1a3d7c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #0d2450;
+}
+
+@media (max-width: 768px) {
+    .popular-cars {
+        flex-direction: column;
+    }
+
+    .car-card {
+        width: 90%;
+    }
+
+    .why-us {
+        flex-direction: column;
+    }
+}
