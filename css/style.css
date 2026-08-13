@@ -2,13 +2,46 @@ body {
     font-family: Arial, sans-serif;
     color: #333333;
 }
+section {
+    padding: 60px 20px;
+}
+.why-us article {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+}
+.hero {
+    background: linear-gradient(135deg, #2659ac, #0d2450);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero button {
+    background-color: white;
+    color: #7c361a;
+}
+h2 {
+    color: #ca7e7e;
+}
+.section-alt {
+    background-color: #f5f5f5;
+}
+.car-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
 h1 {
      color: #1a3d7c;
 }
 .car-card {
     border: 1px solid gray;
     padding: 10px;
-    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 img {
     width: 100%;
