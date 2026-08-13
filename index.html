@@ -33,35 +33,39 @@
 
     <main>
 
-        <section class ="hero">
-    <h2>Hayalindeki aracı kirala</h2>
-
-    <p class="mb-3">
-        Güvenli, hızlı ve kolay araç kiralama.
-    </p>
-
-    <button>Araçları Gör</button>
+      <section class="hero">
+    <div class="hero-content">
+        <h2>Hayalindeki aracı kirala</h2>
+        <p class="mb-3">
+            Güvenli, hızlı ve kolay araç kiralama.
+        </p>
+        <button>Araçları Gör</button>
+    </div>
 </section>
 
-
-        <section>
+        <section class="search-section">
             <h2>Araç Kirala</h2>
 
-            <form>
+            <form class ="search-form ">
 
-                <label for="location">Alış Yeri</label>
-                <input type="text" id="location" placeholder="Şehir veya konum">
+                <div>
+        <label for="location">Alış Yeri</label>
+        <select id="location">
+            <option value="">Şehir seçin</option>
+        </select>
+    </div>
 
+    <div>
+        <label for="pickup-date">Alış Tarihi</label>
+        <input type="date" id="pickup-date">
+    </div>
 
-                <label for="pickup-date">Alış Tarihi</label>
-                <input type="date" id="pickup-date">
+    <div>
+        <label for="return-date">İade Tarihi</label>
+        <input type="date" id="return-date">
+    </div>
 
-
-                <label for="return-date">İade Tarihi</label>
-                <input type="date" id="return-date">
-
-
-                <button type="submit">Ara</button>
+    <button type="submit">Ara</button>
 
             </form>
         </section>
