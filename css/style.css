@@ -14,7 +14,11 @@ section {
 
 }
 .hero {
-    background: linear-gradient(135deg, #2659ac, #0d2450);
+    background:
+        linear-gradient(135deg, rgba(26, 61, 124, 0.85), rgba(13, 36, 80, 0.9)),
+        url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -116,11 +120,135 @@ button:hover {
     border: 1px solid #ccc;
     border-radius: 6px;
 }
-
+.why-icon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
 .search-form button {
     height: 42px;
     padding: 0 30px;
     font-size: 1rem;
     font-weight: bold;
     border-radius: 6px;
+}
+footer {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer p {
+    margin: 5px 0;
+    color: #666;
+}
+
+footer p:first-child {
+    font-weight: bold;
+    color: #333;
+}
+section h2 {
+    margin-bottom: 30px;
+}
+.about-content {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+.contact-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 200px;
+}
+
+.contact-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.navbar-auth {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.auth-link {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.auth-link:hover {
+    color: #ccc;
+}
+
+.auth-button {
+    background-color: #e07856;
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.auth-button:hover {
+    background-color: #c9633f;
+}
+.navbar-brand {
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.brand-icon {
+    margin-right: 6px;
+}
+
+.brand-accent {
+    color: #e07856;
+}
+
+.auth-container {
+    max-width: 400px;
+    margin: 80px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.auth-switch {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.auth-button {
+    background-color: #e07856;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.auth-button:hover {
+    background-color: #c9633f;
+    color: white;
 }
